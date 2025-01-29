@@ -123,12 +123,6 @@ app.post("/replies", authenticateToken, async (req, res) => {
 });
 
 
-const user = {
-  name: "Ny Student",
-  email: "test@example.com",
-  password: "testpass",
-  role: "student"
-};
 
 
 
